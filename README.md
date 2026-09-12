@@ -1,50 +1,10 @@
 <div align="center">
 
-```
- __  __ _      _          _ _
-|  \/  (_) ___| |__   ___| | |
-| |\/| | |/ __| '_ \ / _ \ | |
-| |  | | | (__| | | |  __/ | |
-|_|  |_|_|\___|_| |_|\___|_|_|
-```
-
-**Mechatronics Engineer | Industrial Control Systems & Applied AI**
+![Terminal](terminal-banner.svg)
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=michellvzl08-eng&color=39FF14&style=flat)
 
 </div>
-
----
-
-```
-$ neofetch
-OS          > Sonora (Hermosillo Edition)
-Shell       > streamlit
-Editor      > Spyder / Visual Studio
-Role        > Mechatronics Eng. Intern @ Martinrea
-Focus       > Industrial Control + Applied AI
-Status      > deploying ML on restricted plant networks
-```
-
-```
-$ cat current.txt
-currently working on   > SCADA/OEE dashboard for Siemens PLCs
-also building           > AI-based HR recruitment classifier (Random Forest)
-status                  > shipping ML models into industrial networks
-```
-
-```
-$ cat stack.conf
-[languages]    python · c · c++ · c#
-[frameworks]   streamlit · scikit-learn · keras · .net
-[databases]    sqlite
-[tools]        git · anaconda · visual studio · snap7
-```
-
-```
-$ cat quote.txt
-"Debug like an engineer, ship like it's production."
-```
 
 ---
 
