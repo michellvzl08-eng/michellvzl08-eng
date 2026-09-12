@@ -71,10 +71,9 @@ $ cat quote.txt
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=michellvzl08-eng&theme=dark)
 
 </div>
-### Contribution Tetris
+### Commit Invaders
 
-![Contribution graph with falling tetrominoes](https://raw.githubusercontent.com/michellvzl08-eng/michellvzl08-eng/output/contribution-graph-tetrominoes.svg)
-
+![Commit Invaders](https://raw.githubusercontent.com/michellvzl08-eng/michellvzl08-eng/output/commit-invaders.svg)
 ---
 
 ### Contact
