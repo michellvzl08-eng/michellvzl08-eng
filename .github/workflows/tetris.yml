@@ -20,6 +20,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           tetromino_count: "5"
+          palette: "github-dark"
           output_path: dist/contribution-graph-tetrominoes.svg
 
       - name: Push to output branch
