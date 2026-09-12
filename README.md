@@ -71,9 +71,9 @@ $ cat quote.txt
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=michellvzl08-eng&theme=dark)
 
 </div>
-### Commit Invaders
+### Gravity
 
-![Commit Invaders](https://raw.githubusercontent.com/michellvzl08-eng/michellvzl08-eng/output/commit-invaders.svg)
+![Gravity Animation](https://raw.githubusercontent.com/michellvzl08-eng/michellvzl08-eng/output/gravity.svg)
 ---
 
 ### Contact
