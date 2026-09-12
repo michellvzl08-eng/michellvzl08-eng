@@ -1,4 +1,4 @@
-name: Generate Contribution Gravity
+name: Generate Contribution Snake
 
 on:
   workflow_dispatch:
@@ -9,23 +9,25 @@ on:
       - main
 
 jobs:
-  gravity:
+  snake:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: flycran/github-gravity@v1
+      - uses: Platane/snk@v3
         with:
-          username: michellvzl08-eng
-          text: "MICHELL"
-          output-path: deploy/gravity.svg
-          text-color: "#7F77DD"
-          font-size: "70"
-      - uses: peaceiris/actions-gh-pages@v4
+          github_user_name: michellvzl08-eng
+          outputs: |
+            dist/github-snake.svg?color_snake=#39FF14&color_dots=#000000,#003300,#006600,#00cc00,#00ff00
+            dist/github-snake-dark.svg?color_snake=#39FF14&color_dots=#000000,#003300,#006600,#00cc00,#00ff00
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push snake output
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./deploy
+          publish_dir: ./dist
           publish_branch: output
           keep_files: false
           force_orphan: true
