@@ -1,52 +1,125 @@
-<svg viewBox="0 0 760 690" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', Consolas, Menlo, monospace" xml:space="preserve">
+<svg viewBox="0 0 760 1366" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', Consolas, Menlo, monospace" xml:space="preserve">
+
+  <defs>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1.4" fill="#000000" opacity="0.35"/>
+    </pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="758" height="1364" rx="10"/></clipPath>
+  </defs>
   <style>
     .g { fill: #39FF14; }
     .cursor { animation: blink 1s steps(1) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
+    .l { opacity: 0; animation: fadein .3s ease-out forwards; }
+    @keyframes fadein { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+    .scan { animation: scan 6s linear infinite; }
+    @keyframes scan { from { transform: translateY(0); } to { transform: translateY(60px); } }
+    .bar { transform: scaleX(0); transform-origin: left; animation-timing-function: steps(20); animation-fill-mode: forwards; animation-duration: .6s; animation-name: fill; }
+    @keyframes fill { to { transform: scaleX(1); } }
+    .ok { opacity: 0; animation: fadein .3s ease-out forwards; }
+    .pulse { animation: pulseop 1.8s ease-in-out infinite; }
+    @keyframes pulseop { 0%,100% { opacity: 1; } 50% { opacity: .45; } }
+    .flourish { animation: glow 2.4s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    .tw1 { animation: twinkle 2.6s ease-in-out infinite; }
+    .tw2 { animation: twinkle 3.4s ease-in-out infinite .5s; }
+    .tw3 { animation: twinkle 2.1s ease-in-out infinite 1s; }
+    @keyframes twinkle { 0%,100% { opacity: .25; } 50% { opacity: .9; } }
   </style>
-
-  <rect x="1" y="1" width="758" height="688" rx="10" fill="#000000" stroke="#1c6b0a" stroke-width="2"/>
+  <rect x="1" y="1" width="758" height="1364" rx="10" fill="#000000" stroke="#1c6b0a" stroke-width="2"/>
   <rect x="1" y="1" width="758" height="30" rx="10" fill="#0a0a0a"/>
   <rect x="1" y="21" width="758" height="10" fill="#0a0a0a"/>
   <line x1="1" y1="31" x2="759" y2="31" stroke="#1c6b0a" stroke-width="1"/>
   <text x="16" y="20" font-size="12" class="g" opacity="0.85">michell@github:~$</text>
+  <text x="595" y="225" font-size="12" class="g l tw1" style="animation-delay:0.9s">*</text>
+  <text x="640" y="234" font-size="9" class="g l tw2" style="animation-delay:0.9s">.</text>
+  <text x="680" y="222" font-size="13" class="g l tw3" style="animation-delay:0.9s">*</text>
+  <text x="350" y="254" font-size="10" class="g l tw2" style="animation-delay:0.9s">.</text>
+  <text x="420" y="262" font-size="13" class="g l tw1" style="animation-delay:0.9s">*</text>
+  <text x="500" y="250" font-size="9" class="g l tw3" style="animation-delay:0.9s">.</text>
+  <text x="580" y="260" font-size="12" class="g l tw2" style="animation-delay:0.9s">*</text>
+  <image x="634" y="238" width="20" height="20" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAA5ElEQVR4nO2ZUQ6CMBAFB8/gZbz/h5fxDvDVBLSFLu1ud03n05hm8jKAEZjosvQ66LU+1+/P3sun2/mJpgNzkgkNWbghfCaZ0JIFeEi+PFoWBMI1shZcriER1V4XLhb2JgvChj1QFPa4LhSEvVxgOX6EpbKW68I/NeyVg7DndhNNC1v3C5GTiJADRF44ClNYmymsTVzhO0+tEffuuAtH4SA84seMlOaFrTuOnQT4v1tkF/bccjEJqbTVyl0btpA+FfaYRrWQl7+uqpOQSGimIWrYg7TaS5k9PRNRfe21x+MFPMmxARYdVOCoGhSUAAAAAElFTkSuQmCC" class="l tw1" style="animation-delay:0.9s"/>
 
-  <g font-size="13" class="g">
-    <text x="24" y="66">___  __ _      _          _ _</text>
-    <text x="24" y="83">|  \/  (_) ___| |__   ___| | |</text>
-    <text x="24" y="100">| |\/| | |/ __| '_ \ / _ \ | |</text>
-    <text x="24" y="117">| |  | | | (__| | | |  __/ | |</text>
-    <text x="24" y="134">|_|  |_|_|\___|_| |_|\___|_|_|</text>
-  </g>
-
-  <text x="24" y="164" font-size="14" font-weight="bold" class="g">Mechatronics Engineer | Industrial Control Systems &amp; Applied AI</text>
-
-  <g font-size="12" class="g">
-    <text x="24" y="196" font-weight="bold">$ neofetch</text>
-    <text x="24" y="214">OS          &gt; Sonora (Hermosillo Edition)</text>
-    <text x="24" y="232">Shell       &gt; streamlit</text>
-    <text x="24" y="250">Editor      &gt; Spyder / Visual Studio</text>
-    <text x="24" y="268">Role        &gt; Mechatronics Eng. Intern @ Martinrea</text>
-    <text x="24" y="286">Focus       &gt; Industrial Control + Applied AI</text>
-    <text x="24" y="304">Status      &gt; deploying ML on restricted plant networks</text>
-
-    <text x="24" y="336" font-weight="bold">$ cat current.txt</text>
-    <text x="24" y="354">currently working on   &gt; SCADA/OEE dashboard for Siemens PLCs</text>
-    <text x="24" y="372">also building           &gt; AI-based HR recruitment classifier (Random Forest)</text>
-
-    <text x="24" y="404" font-weight="bold">$ cat stack.conf</text>
-    <text x="24" y="422">[languages]    python &#183; c &#183; c++ &#183; c#</text>
-    <text x="24" y="440">[frameworks]   streamlit &#183; scikit-learn &#183; keras &#183; .net</text>
-    <text x="24" y="458">[databases]    sqlite</text>
-    <text x="24" y="476">[tools]        git &#183; anaconda &#183; visual studio &#183; snap7</text>
-
-    <text x="24" y="508" font-weight="bold">$ cat quote.txt</text>
-    <text x="24" y="526">"Debug like an engineer, ship like it's production."</text>
-
-    <text x="24" y="558" font-weight="bold">$ echo $CONTACT</text>
-    <text x="24" y="576">michellvzl08@gmail.com</text>
-    <text x="24" y="594">github.com/michellvzl08-eng</text>
-
-    <text x="24" y="626" font-weight="bold">$ <tspan class="cursor">▍</tspan></text>
-  </g>
+  <image x="7" y="98" width="34" height="34" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAA7UlEQVR4nO2ZQQ6DMAwEl76hn+n/D/1M/0BPkVKL4Jh4XSN5jhxgsiwhAaDgsjFO+tqfuzz23j4u16IIA8fSjRV5mjBwLt2wyj+u6+jMyMwMqocqPItFmlqJhkVIuyshCVt6qg0uRSUshAl7pZw24ZF0qLB1zj2STpvwiBL2RtYiXHh11ZY+YckthPta3EK4p4TZlDCbEmYTLmzddAK/b8dKmE16YblYChW+0l9J+oQlYcKrs0MjbcKjhX6IsDXds10JXdjjQetJVwltz/f3D9qN2c0pLWGGLEASZskCzpWYFU3xU0aT9frtVbD5AmJ7VODI8gy6AAAAAElFTkSuQmCC" class="l flourish" style="animation-delay:0.1s"/>
+  <image x="55" y="44" width="500" height="131" href="data:image/png;base64,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" class="l" style="animation-delay:0.00s"/>
+  <image x="565" y="98" width="34" height="34" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAA5ElEQVR4nO2ZUQ6CMBAFB8/gZbz/h5fxDvDVBLSFLu1ud03n05hm8jKAEZjosvQ66LU+1+/P3sun2/mJpgNzkgkNWbghfCaZ0JIFeEi+PFoWBMI1shZcriER1V4XLhb2JgvChj1QFPa4LhSEvVxgOX6EpbKW68I/NeyVg7DndhNNC1v3C5GTiJADRF44ClNYmymsTVzhO0+tEffuuAtH4SA84seMlOaFrTuOnQT4v1tkF/bccjEJqbTVyl0btpA+FfaYRrWQl7+uqpOQSGimIWrYg7TaS5k9PRNRfe21x+MFPMmxARYdVOCoGhSUAAAAAElFTkSuQmCC" class="l flourish" style="animation-delay:0.1s"/>
+  <text x="24" y="231" font-size="14" font-weight="bold" class="g l" style="animation-delay:0.40s">Mechatronics Engineer | Industrial Control Systems &amp; Applied AI</text>
+  <text x="24" y="257" font-size="12" font-weight="bold" class="g l pulse" style="animation-delay:0.55s">Deploying to plant floor...</text>
+  <rect x="20" y="287" width="718" height="152" rx="6" fill="#000000" stroke="#1c6b0a" stroke-width="1" class="l" style="animation-delay:0.75s"/>
+  <rect x="20" y="287" width="718" height="22" rx="6" fill="#0a0a0a" class="l" style="animation-delay:0.75s"/>
+  <rect x="20" y="301" width="718" height="8" fill="#0a0a0a" class="l" style="animation-delay:0.75s"/>
+  <line x1="20" y1="309" x2="738" y2="309" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="30" y="302" font-size="10.5" class="g l" style="animation-delay:0.75s" opacity="0.85">C:\BOOT.EXE</text>
+  <text x="686" y="302" font-size="10.5" class="g l" style="animation-delay:0.75s" opacity="0.75">_  o  x</text>
+  <text x="32" y="323" font-size="10.5" class="g l" style="animation-delay:0.80s">[LOAD] Siemens PLC driver (snap7)</text>
+  <rect x="32" y="335" width="694" height="7" fill="none" stroke="#1c6b0a" stroke-width="1"/>
+  <rect x="33" y="336" width="692" height="5" fill="#39FF14" class="bar" style="animation-delay:0.95s"/>
+  <text x="32" y="355" font-size="10.5" class="g l" style="animation-delay:1.25s">[LOAD] Streamlit environment</text>
+  <rect x="32" y="367" width="694" height="7" fill="none" stroke="#1c6b0a" stroke-width="1"/>
+  <rect x="33" y="368" width="692" height="5" fill="#39FF14" class="bar" style="animation-delay:1.40s"/>
+  <text x="32" y="387" font-size="10.5" class="g l" style="animation-delay:1.70s">[LOAD] ML models (Keras / Random Forest)</text>
+  <rect x="32" y="399" width="694" height="7" fill="none" stroke="#1c6b0a" stroke-width="1"/>
+  <rect x="33" y="400" width="692" height="5" fill="#39FF14" class="bar" style="animation-delay:1.85s"/>
+  <text x="32" y="425" font-size="11" font-weight="bold" class="g ok" style="animation-delay:2.25s">[ OK ] System ready.</text>
+  <text x="24" y="483" font-size="12" font-weight="bold" class="g l" style="animation-delay:2.50s">$ neofetch</text>
+  <rect x="20" y="489" width="718" height="172" rx="6" fill="#000000" stroke="#1c6b0a" stroke-width="1" class="l" style="animation-delay:2.50s"/>
+  <rect x="20" y="489" width="718" height="22" rx="6" fill="#0a0a0a" class="l" style="animation-delay:2.50s"/>
+  <rect x="20" y="503" width="718" height="8" fill="#0a0a0a" class="l" style="animation-delay:2.50s"/>
+  <line x1="20" y1="511" x2="738" y2="511" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="30" y="504" font-size="10.5" class="g l" style="animation-delay:2.50s" opacity="0.85">C:\NEOFETCH.EXE</text>
+  <text x="686" y="504" font-size="10.5" class="g l" style="animation-delay:2.50s" opacity="0.75">_  o  x</text>
+  <text x="32" y="527" font-size="12" class="g l" style="animation-delay:2.55s">OS          &gt; Sonora (Hermosillo Edition)</text>
+  <text x="32" y="545" font-size="12" class="g l" style="animation-delay:2.60s">Shell       &gt; streamlit</text>
+  <text x="32" y="563" font-size="12" class="g l" style="animation-delay:2.65s">Editor      &gt; Spyder / Visual Studio</text>
+  <text x="32" y="581" font-size="12" class="g l" style="animation-delay:2.70s">Role        &gt; Mechatronics Eng. Intern @ Martinrea</text>
+  <text x="32" y="599" font-size="12" class="g l" style="animation-delay:2.75s">Coffee      &gt; [########..] 80%</text>
+  <text x="32" y="617" font-size="12" class="g l" style="animation-delay:2.80s">Focus       &gt; [##########] 100%</text>
+  <text x="32" y="635" font-size="12" class="g l" style="animation-delay:2.85s">Bugs        &gt; being handled</text>
+  <rect x="20" y="705" width="718" height="154" rx="6" fill="#000000" stroke="#1c6b0a" stroke-width="1" class="l" style="animation-delay:3.10s"/>
+  <rect x="20" y="705" width="718" height="22" rx="6" fill="#0a0a0a" class="l" style="animation-delay:3.10s"/>
+  <rect x="20" y="719" width="718" height="8" fill="#0a0a0a" class="l" style="animation-delay:3.10s"/>
+  <line x1="20" y1="727" x2="738" y2="727" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="30" y="720" font-size="10.5" class="g l" style="animation-delay:3.10s" opacity="0.85">C:\TOP.EXE</text>
+  <text x="686" y="720" font-size="10.5" class="g l" style="animation-delay:3.10s" opacity="0.75">_  o  x</text>
+  <text x="32" y="743" font-size="11" class="g l" style="animation-delay:3.15s" opacity="0.65">PROCESS                   CPU    STATUS</text>
+  <line x1="32" y1="748" x2="606" y2="748" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="32" y="761" font-size="11.5" class="g l" style="animation-delay:3.15s">scada_oee_dashboard.py    72%    [running]</text>
+  <text x="32" y="779" font-size="11.5" class="g l" style="animation-delay:3.21s">hr_classifier_rf.py       45%    [running]</text>
+  <text x="32" y="797" font-size="11.5" class="g l" style="animation-delay:3.27s">plc_connection_handler    38%    [running]</text>
+  <text x="32" y="815" font-size="11.5" class="g l" style="animation-delay:3.33s">report_writing            20%    [running]</text>
+  <text x="32" y="833" font-size="11.5" class="g l" style="animation-delay:3.39s">deploy_to_plant_network   60%    [running] [OK]</text>
+  <rect x="20" y="903" width="718" height="118" rx="6" fill="#000000" stroke="#1c6b0a" stroke-width="1" class="l" style="animation-delay:3.70s"/>
+  <rect x="20" y="903" width="718" height="22" rx="6" fill="#0a0a0a" class="l" style="animation-delay:3.70s"/>
+  <rect x="20" y="917" width="718" height="8" fill="#0a0a0a" class="l" style="animation-delay:3.70s"/>
+  <line x1="20" y1="925" x2="738" y2="925" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="30" y="918" font-size="10.5" class="g l" style="animation-delay:3.70s" opacity="0.85">C:\STACK.EXE</text>
+  <text x="686" y="918" font-size="10.5" class="g l" style="animation-delay:3.70s" opacity="0.75">_  o  x</text>
+  <text x="32" y="941" font-size="12" class="g l" style="animation-delay:3.75s">[languages]    python &#183; c &#183; c++ &#183; c#</text>
+  <text x="32" y="959" font-size="12" class="g l" style="animation-delay:3.80s">[frameworks]   streamlit &#183; scikit-learn &#183; keras &#183; .net</text>
+  <text x="32" y="977" font-size="12" class="g l" style="animation-delay:3.85s">[databases]    sqlite</text>
+  <text x="32" y="995" font-size="12" class="g l" style="animation-delay:3.90s">[tools]        git &#183; anaconda &#183; visual studio &#183; snap7</text>
+  <rect x="20" y="1065" width="718" height="64" rx="6" fill="#000000" stroke="#1c6b0a" stroke-width="1" class="l" style="animation-delay:4.15s"/>
+  <rect x="20" y="1065" width="718" height="22" rx="6" fill="#0a0a0a" class="l" style="animation-delay:4.15s"/>
+  <rect x="20" y="1079" width="718" height="8" fill="#0a0a0a" class="l" style="animation-delay:4.15s"/>
+  <line x1="20" y1="1087" x2="738" y2="1087" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="30" y="1080" font-size="10.5" class="g l" style="animation-delay:4.15s" opacity="0.85">C:\QUOTE.EXE</text>
+  <text x="686" y="1080" font-size="10.5" class="g l" style="animation-delay:4.15s" opacity="0.75">_  o  x</text>
+  <text x="32" y="1103" font-size="12" class="g l" style="animation-delay:4.20s">"Debug like an engineer, ship like it's production."</text>
+  <rect x="20" y="1173" width="350" height="123" rx="6" fill="#000000" stroke="#1c6b0a" stroke-width="1" class="l" style="animation-delay:4.45s"/>
+  <rect x="20" y="1173" width="350" height="22" rx="6" fill="#0a0a0a" class="l" style="animation-delay:4.45s"/>
+  <rect x="20" y="1187" width="350" height="8" fill="#0a0a0a" class="l" style="animation-delay:4.45s"/>
+  <line x1="20" y1="1195" x2="370" y2="1195" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="30" y="1188" font-size="10.5" class="g l" style="animation-delay:4.45s" opacity="0.85">C:\CONTACT.EXE</text>
+  <text x="318" y="1188" font-size="10.5" class="g l" style="animation-delay:4.45s" opacity="0.75">_  o  x</text>
+  <text x="32" y="1211" font-size="12" class="g l" style="animation-delay:4.50s">michellvzl08@gmail.com</text>
+  <text x="32" y="1229" font-size="12" class="g l" style="animation-delay:4.55s">github.com/michellvzl08-eng</text>
+  <rect x="388" y="1173" width="350" height="123" rx="6" fill="#000000" stroke="#1c6b0a" stroke-width="1" class="l" style="animation-delay:4.55s"/>
+  <rect x="388" y="1173" width="350" height="22" rx="6" fill="#0a0a0a" class="l" style="animation-delay:4.55s"/>
+  <rect x="388" y="1187" width="350" height="8" fill="#0a0a0a" class="l" style="animation-delay:4.55s"/>
+  <line x1="388" y1="1195" x2="738" y2="1195" stroke="#1c6b0a" stroke-width="1"/>
+  <text x="398" y="1188" font-size="10.5" class="g l" style="animation-delay:4.55s" opacity="0.85">C:\SKULL.EXE</text>
+  <text x="686" y="1188" font-size="10.5" class="g l" style="animation-delay:4.55s" opacity="0.75">_  o  x</text>
+  <image x="518" y="1207" width="90" height="77" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOMAAADCCAYAAAC7fnXfAAAKbUlEQVR4nO3dX6ycRRnH8e9UmlSSJkCmchKBlpiAmjSNREvnxgRr4g14IwlGe9dEQzQYSCjN6Q0xFmglhMgFCULkAoMaYhPoBRL5IxIHTTH2pmqNtUGQIKMQIdCAdLx4Z9P1nN09u+fse96ZeX+fm3fn7LzzPmf2PDvv2X33WRARERERERERERERERERGRyVy0z7loo4v2uUk/y7W/tGtD1wGISEPJKJIJJaNIJpSMIiIiIiIiMo7pOoCSuWgvAN4cc/el3oRX1jGcddHH33m96AUckUwoGUUkXy7aB9MlYdFF+0jX8dRAc7oyrYwimVAyimRCySgiIiIiIiIiIiIiIiIiIiLlcNHuS9dIPt51LHKOi/ZIelxu7zqWLvTuChwX7Sbg5tQ82GUssszg8bjJRbu500g60LtkBPYCC8DT3oTfdh2MnONNOAY8BVwI3NhxOOuuV8noot0I3JqaWhXzNHhcbklnMb3Rq2QE9gBbgRe9Cc92HYws5104JMSA0DGoITjUAAAAAElFTkSuQmCC" class="l" style="animation-delay:4.65s"/>
+  <text x="24" y="1320" font-size="12" font-weight="bold" class="g l" style="animation-delay:4.95s">$ <tspan class="cursor">▌</tspan></text>
+  <rect x="1" y="32" width="758" height="1324" fill="url(#scan)" opacity="0.5" clip-path="url(#clip)" class="scan"/>
 </svg>
