@@ -106,15 +106,15 @@
   <line x1="20" y1="1049" x2="246" y2="1049" stroke="#1c6b0a" stroke-width="1"/>
   <text x="30" y="1042" font-size="10.5" class="g l" style="animation-delay:3.68s" opacity="0.85">C:\LAIN.EXE</text>
   <text x="194" y="1042" font-size="10.5" class="g l" style="animation-delay:3.68s" opacity="0.75">_  o  x</text>
-  <text x="41" y="1058" font-size="10.56" class="g l" style="animation-delay:3.68s" xml:space="preserve">⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡢⡀⠀⠀⠀⠀</text>
-  <text x="41" y="1069" font-size="10.56" class="g l" style="animation-delay:3.69s" xml:space="preserve">⠀⠀⠀⢄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀</text>
-  <text x="41" y="1079" font-size="10.56" class="g l" style="animation-delay:3.70s" xml:space="preserve">⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀</text>
-  <text x="41" y="1090" font-size="10.56" class="g l" style="animation-delay:3.71s" xml:space="preserve">⠀⢨⣿⡿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀</text>
-  <text x="41" y="1100" font-size="10.56" class="g l" style="animation-delay:3.72s" xml:space="preserve">⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀⠀</text>
-  <text x="41" y="1111" font-size="10.56" class="g l" style="animation-delay:3.73s" xml:space="preserve">⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⠀</text>
-  <text x="41" y="1121" font-size="10.56" class="g l" style="animation-delay:3.74s" xml:space="preserve">⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡇⠀⢸⢹⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡧⠀</text>
-  <text x="41" y="1132" font-size="10.56" class="g l" style="animation-delay:3.75s" xml:space="preserve">⠈⣿⣿⣿⣿⣿⠧⠯⠟⠿⠧⠀⠀⠀⠸⠿⠿⢼⣿⠿⢿⣟⣿⣿⣿⣿⣿⣇⠀</text>
-  <text x="41" y="1142" font-size="10.56" class="g l" style="animation-delay:3.76s" xml:space="preserve">⠀⣿⣿⣿⣿⡿⢰⠺⣿⠉⠂⠀⠀⠀⠀⠀⠀⠚⣷⣶⠢⡀⢿⣿⣿⣿⡿⠉⠀</text>
+  <text x="41" y="1058" font-size="10.56" class="g l" style="animation-delay:3.68s" xml:space="preserve">⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡢⡀⠀⠀⠀⠀</text>
+  <text x="41" y="1069" font-size="10.56" class="g l" style="animation-delay:3.69s" xml:space="preserve">⠀⠀⠀⢄⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀</text>
+  <text x="41" y="1079" font-size="10.56" class="g l" style="animation-delay:3.70s" xml:space="preserve">⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀</text>
+  <text x="41" y="1090" font-size="10.56" class="g l" style="animation-delay:3.71s" xml:space="preserve">⠀⢨⣿⡿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀</text>
+  <text x="41" y="1100" font-size="10.56" class="g l" style="animation-delay:3.72s" xml:space="preserve">⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀⠀</text>
+  <text x="41" y="1111" font-size="10.56" class="g l" style="animation-delay:3.73s" xml:space="preserve">⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⠀</text>
+  <text x="41" y="1121" font-size="10.56" class="g l" style="animation-delay:3.74s" xml:space="preserve">⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡇⠀⢸⢹⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⡧⠀</text>
+  <text x="41" y="1132" font-size="10.56" class="g l" style="animation-delay:3.75s" xml:space="preserve">⠈⣿⣿⣿⣿⣿⠧⠯⠟⠿⠧⠀⠀⠀⠸⠿⠿⢼⣿⠿⢿⣟⣿⣿⣿⣿⣇⠀</text>
+  <text x="41" y="1142" font-size="10.56" class="g l" style="animation-delay:3.76s" xml:space="preserve">⠀⣿⣿⣿⣿⡿⢰⠺⣿⠉⠂⠀⠀⠀⠀⠀⠀⠚⣷⣶⠢⡀⢿⣿⣿⣿⠀</text>
   <text x="41" y="1153" font-size="10.56" class="g l" style="animation-delay:3.77s" xml:space="preserve">⢐⢻⣿⣏⠙⠇⠈⠒⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠝⠻⠥⠁⢰⡌⠹⠋⡀⡀⠀</text>
   <text x="41" y="1164" font-size="10.56" class="g l" style="animation-delay:3.78s" xml:space="preserve">⠀⠉⢻⣿⣦⡀⠐⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠆⠄⠸⢃⣰⡀⠱⠀⠀</text>
   <text x="41" y="1174" font-size="10.56" class="g l" style="animation-delay:3.79s" xml:space="preserve">⠀⠀⠀⢹⣿⣿⡄⠀⠀⠀⠀⠀⠀⡀⡀⠀⠀⠀⠀⠀⠀⢀⣶⣿⣿⡟⠁⠀⠀</text>
@@ -175,7 +175,7 @@
   <text x="545" y="1122" font-size="19.00" class="g l" style="animation-delay:4.11s" xml:space="preserve">⣿⡇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿</text>
   <text x="545" y="1141" font-size="19.00" class="g l" style="animation-delay:4.12s" xml:space="preserve">⢹⢹⠋⠁⠂⡙⣿⣿⢉⠔⠈⠙⣏⡏</text>
   <text x="545" y="1160" font-size="19.00" class="g l" style="animation-delay:4.13s" xml:space="preserve">⢠⣾⣀⣲⣼⣶⠋⠙⣶⣥⣖⣠⣿⡄</text>
-  <text x="545" y="1179" font-size="19.00" class="g l" style="animation-delay:4.14s" xml:space="preserve">⠀⠙⣿⢿⣿⣏⣀⣀⣹⣿⡿⣿⠛⠁</text>
+  <text x="545" y="1179" font-size="19.00" class="g l" style="animation-delay:4.14s" xml:space="preserve">⠀⠙⣿⢿⣿⣏⣀⣀⣹⣿⡿⣿⠛</text>
   <text x="545" y="1198" font-size="19.00" class="g l" style="animation-delay:4.15s" xml:space="preserve">⠀⠀⣿⣞⠛⠛⠟⠻⠛⠛⣳⣿⠀⠀</text>
   <text x="545" y="1217" font-size="19.00" class="g l" style="animation-delay:4.16s" xml:space="preserve">⠀⠀⢸⣿⣷⣶⣤⣤⣶⣾⣿⡇⠀⠀</text>
   <text x="545" y="1236" font-size="19.00" class="g l" style="animation-delay:4.17s" xml:space="preserve">⠀⠀⠀⠉⠻⠿⣿⣿⡿⠟⠉⠀⠀⠀</text>
